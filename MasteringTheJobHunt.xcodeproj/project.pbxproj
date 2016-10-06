@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		ED61C5CA1D9C61D800F14DE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61C5C91D9C61D800F14DE2 /* AppDelegate.swift */; };
 		ED61C5CC1D9C61D800F14DE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61C5CB1D9C61D800F14DE2 /* ViewController.swift */; };
-		ED61C5CF1D9C61D800F14DE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61C5CD1D9C61D800F14DE2 /* Main.storyboard */; };
 		ED61C5D11D9C61D800F14DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED61C5D01D9C61D800F14DE2 /* Assets.xcassets */; };
 		ED61C5D41D9C61D800F14DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61C5D21D9C61D800F14DE2 /* LaunchScreen.storyboard */; };
 		ED61C5DF1D9C61D800F14DE2 /* MasteringTheJobHuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61C5DE1D9C61D800F14DE2 /* MasteringTheJobHuntTests.swift */; };
 		ED61C5EA1D9C61D800F14DE2 /* MasteringTheJobHuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61C5E91D9C61D800F14DE2 /* MasteringTheJobHuntUITests.swift */; };
+		ED95BE401DA5A205004F48A1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED95BE3F1DA5A205004F48A1 /* TableViewController.swift */; };
+		ED95BE431DA5A330004F48A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED95BE411DA5A330004F48A1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 		ED61C5C61D9C61D800F14DE2 /* MasteringTheJobHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasteringTheJobHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED61C5C91D9C61D800F14DE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED61C5CB1D9C61D800F14DE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED61C5CE1D9C61D800F14DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED61C5D01D9C61D800F14DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED61C5D31D9C61D800F14DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED61C5D51D9C61D800F14DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		ED61C5E51D9C61D800F14DE2 /* MasteringTheJobHuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasteringTheJobHuntUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED61C5E91D9C61D800F14DE2 /* MasteringTheJobHuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasteringTheJobHuntUITests.swift; sourceTree = "<group>"; };
 		ED61C5EB1D9C61D800F14DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED95BE3F1DA5A205004F48A1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ED95BE421DA5A330004F48A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,8 @@
 			children = (
 				ED61C5C91D9C61D800F14DE2 /* AppDelegate.swift */,
 				ED61C5CB1D9C61D800F14DE2 /* ViewController.swift */,
-				ED61C5CD1D9C61D800F14DE2 /* Main.storyboard */,
+				ED95BE411DA5A330004F48A1 /* Main.storyboard */,
+				ED95BE3F1DA5A205004F48A1 /* TableViewController.swift */,
 				ED61C5D01D9C61D800F14DE2 /* Assets.xcassets */,
 				ED61C5D21D9C61D800F14DE2 /* LaunchScreen.storyboard */,
 				ED61C5D51D9C61D800F14DE2 /* Info.plist */,
@@ -232,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED95BE431DA5A330004F48A1 /* Main.storyboard in Resources */,
 				ED61C5D41D9C61D800F14DE2 /* LaunchScreen.storyboard in Resources */,
 				ED61C5D11D9C61D800F14DE2 /* Assets.xcassets in Resources */,
-				ED61C5CF1D9C61D800F14DE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED61C5CC1D9C61D800F14DE2 /* ViewController.swift in Sources */,
+				ED95BE401DA5A205004F48A1 /* TableViewController.swift in Sources */,
 				ED61C5CA1D9C61D800F14DE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,20 +300,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ED61C5CD1D9C61D800F14DE2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED61C5CE1D9C61D800F14DE2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ED61C5D21D9C61D800F14DE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ED61C5D31D9C61D800F14DE2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		ED95BE411DA5A330004F48A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED95BE421DA5A330004F48A1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -505,6 +509,7 @@
 				ED61C5F01D9C61D800F14DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED61C5F11D9C61D800F14DE2 /* Build configuration list for PBXNativeTarget "MasteringTheJobHuntTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				ED61C5F31D9C61D800F14DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED61C5F41D9C61D800F14DE2 /* Build configuration list for PBXNativeTarget "MasteringTheJobHuntUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				ED61C5F61D9C61D800F14DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
