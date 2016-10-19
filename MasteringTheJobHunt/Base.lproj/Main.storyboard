@@ -28,8 +28,8 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huU-Ae-0gR">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="28" id="aau-x2-EPr"/>
-                                    <constraint firstAttribute="height" constant="28" id="qYq-9q-ubg"/>
+                                    <constraint firstAttribute="width" constant="35" id="aau-x2-EPr"/>
+                                    <constraint firstAttribute="height" constant="35" id="qYq-9q-ubg"/>
                                 </constraints>
                                 <state key="normal" image="arrow"/>
                                 <connections>
@@ -37,14 +37,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with Erica Correa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAY-Tj-Feh">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGV-2w-FRb">
                                 <string key="text">Mastering the Tech 
 Interview</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -86,10 +86,25 @@ Interview</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A little about myself..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Y1-Kx-HMB">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_and_tino" translatesAutoresizingMaskIntoConstraints="NO" id="37s-4s-gms">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="37s-4s-gms" secondAttribute="height" multiplier="261:314" id="KHo-kK-ktc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIA-5L-Qgi">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="4V1-k0-LuW"/>
+                                    <constraint firstAttribute="width" constant="35" id="VKB-x3-3kl"/>
+                                </constraints>
+                                <state key="normal" image="arrow"/>
+                                <connections>
+                                    <segue destination="4Ea-Zi-s6m" kind="show" id="ET9-tB-chT"/>
+                                </connections>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="Krf-jY-8Bn">
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPr-EA-kQ3">
@@ -97,40 +112,22 @@ Interview</string>
   - B.A. from SUNY New Paltz
   - M.A. from NYU
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TurnToTech Bootcamp Graduate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="koV-rc-0gs">
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current iOS Engineer @ XO Group Inc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJz-ZB-Lu6">
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_and_tino" translatesAutoresizingMaskIntoConstraints="NO" id="37s-4s-gms">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="260" id="81c-sm-7Je"/>
-                                    <constraint firstAttribute="width" constant="226" id="KuD-c9-HjB"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIA-5L-Qgi">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="28" id="4V1-k0-LuW"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="28" id="58b-9t-m4f"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="28" id="U7T-OS-uib"/>
-                                    <constraint firstAttribute="width" constant="28" id="VKB-x3-3kl"/>
-                                </constraints>
-                                <state key="normal" image="arrow"/>
-                                <connections>
-                                    <segue destination="4Ea-Zi-s6m" kind="show" id="ET9-tB-chT"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -138,6 +135,7 @@ Interview</string>
                             <constraint firstItem="0Y1-Kx-HMB" firstAttribute="top" secondItem="AZY-tm-1NM" secondAttribute="bottom" constant="33" id="CxV-2T-b7z"/>
                             <constraint firstItem="37s-4s-gms" firstAttribute="trailing" secondItem="0IK-ys-bhh" secondAttribute="trailingMargin" id="LQM-6q-lqv"/>
                             <constraint firstItem="Krf-jY-8Bn" firstAttribute="leading" secondItem="0IK-ys-bhh" secondAttribute="leadingMargin" id="MgK-62-HZU"/>
+                            <constraint firstItem="37s-4s-gms" firstAttribute="width" secondItem="0IK-ys-bhh" secondAttribute="height" multiplier="9:23" id="c3h-QH-R67"/>
                             <constraint firstItem="eIA-5L-Qgi" firstAttribute="top" secondItem="AZY-tm-1NM" secondAttribute="bottom" constant="8" id="eVo-jd-nvJ"/>
                             <constraint firstItem="Krf-jY-8Bn" firstAttribute="top" secondItem="37s-4s-gms" secondAttribute="bottom" constant="41" id="hu9-OR-LxT"/>
                             <constraint firstItem="eIA-5L-Qgi" firstAttribute="trailing" secondItem="0IK-ys-bhh" secondAttribute="trailingMargin" id="ir8-UI-DuW"/>
@@ -169,7 +167,7 @@ Interview</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to reach me..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ML-IM-FFh">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -179,12 +177,12 @@ Interview</string>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="bAl-rl-XR8">
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="50" id="njh-OW-woo"/>
-                                                    <constraint firstAttribute="height" constant="50" id="qGP-jK-9iw"/>
+                                                    <constraint firstAttribute="width" constant="100" id="njh-OW-woo"/>
+                                                    <constraint firstAttribute="height" constant="100" id="qGP-jK-9iw"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@googliando" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGB-qM-kb4">
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -194,12 +192,12 @@ Interview</string>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blogger" translatesAutoresizingMaskIntoConstraints="NO" id="sRc-6S-i9Z">
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="50" id="prg-a9-tTU"/>
-                                                    <constraint firstAttribute="height" constant="50" id="tte-h1-ksZ"/>
+                                                    <constraint firstAttribute="width" constant="100" id="prg-a9-tTU"/>
+                                                    <constraint firstAttribute="height" constant="100" id="tte-h1-ksZ"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="googliando.blogspot.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1m-B6-78r">
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -209,12 +207,12 @@ Interview</string>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="linkedin" translatesAutoresizingMaskIntoConstraints="NO" id="IwS-8H-32t">
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="0qU-nW-AgN"/>
-                                                    <constraint firstAttribute="width" constant="50" id="X4D-ib-kxl"/>
+                                                    <constraint firstAttribute="height" constant="100" id="0qU-nW-AgN"/>
+                                                    <constraint firstAttribute="width" constant="100" id="X4D-ib-kxl"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ericacorrea831" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csS-8b-WyJ">
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -224,14 +222,14 @@ Interview</string>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gmail" translatesAutoresizingMaskIntoConstraints="NO" id="oYs-Jx-7PS">
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="BH9-m0-xw8"/>
-                                                    <constraint firstAttribute="width" constant="50" id="bS9-9F-yi1"/>
+                                                    <constraint firstAttribute="height" constant="100" id="BH9-m0-xw8"/>
+                                                    <constraint firstAttribute="width" constant="100" id="bS9-9F-yi1"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Azv-fL-HBS">
                                                 <string key="text">ecorrea@xogrp.com
 </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -241,12 +239,8 @@ Interview</string>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcP-D4-13C">
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="28" id="097-0n-8Cu"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="28" id="CB8-On-ryo"/>
-                                    <constraint firstAttribute="width" constant="28" id="NEA-Pb-gVu"/>
-                                    <constraint firstAttribute="height" constant="28" id="Seb-3N-SKa"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="28" id="pli-nt-AJQ"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="28" id="s58-M4-6m4"/>
+                                    <constraint firstAttribute="width" constant="35" id="NEA-Pb-gVu"/>
+                                    <constraint firstAttribute="height" constant="35" id="Seb-3N-SKa"/>
                                 </constraints>
                                 <state key="normal" image="arrow"/>
                                 <connections>
@@ -332,7 +326,7 @@ Interview</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Realistic Expectations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="btx-L3-xFj">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -340,7 +334,7 @@ Interview</string>
                                 <string key="text">- Prior experience
 - Affirmative action
 - Take first job?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -350,7 +344,7 @@ Interview</string>
                                     <segue destination="kQp-5g-yqO" kind="show" id="Pze-53-QWo"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dress_to_impress" translatesAutoresizingMaskIntoConstraints="NO" id="3gF-N6-dRC">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tux" translatesAutoresizingMaskIntoConstraints="NO" id="3gF-N6-dRC">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3gF-N6-dRC" secondAttribute="height" multiplier="25:16" id="gaE-pj-5BH"/>
                                 </constraints>
@@ -387,23 +381,13 @@ Interview</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fantastic Brag Documents" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Scx-tC-82K">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2a-yg-pJn">
-                                <string key="text">- Resume
-- Cover letter
-- Linked in
-- Github
-- Twitter &amp; blog</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample_resume" translatesAutoresizingMaskIntoConstraints="NO" id="tYn-4g-OzP">
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="tYn-4g-OzP" secondAttribute="height" multiplier="343:417" id="15r-P9-13v"/>
+                                    <constraint firstAttribute="width" secondItem="tYn-4g-OzP" secondAttribute="height" multiplier="343:417" constant="131.89688249400479" id="15r-P9-13v"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOc-8D-24X">
@@ -412,16 +396,26 @@ Interview</string>
                                     <segue destination="kQp-5g-yqO" kind="show" id="BSC-sG-j7I"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2a-yg-pJn">
+                                <string key="text">- Resume
+- Cover letter
+- Linked in
+- Github
+- Twitter &amp; blog</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bOc-8D-24X" firstAttribute="top" secondItem="Kdj-sD-1AP" secondAttribute="bottom" id="BNR-xn-z0u"/>
                             <constraint firstItem="F2a-yg-pJn" firstAttribute="leading" secondItem="U9s-2a-INF" secondAttribute="leadingMargin" id="DUD-qW-bCe"/>
-                            <constraint firstItem="tYn-4g-OzP" firstAttribute="width" secondItem="U9s-2a-INF" secondAttribute="width" multiplier="9:10" id="LHk-2g-FPh"/>
-                            <constraint firstItem="tYn-4g-OzP" firstAttribute="centerX" secondItem="U9s-2a-INF" secondAttribute="centerX" id="Own-11-Fbf"/>
+                            <constraint firstItem="tYn-4g-OzP" firstAttribute="width" secondItem="U9s-2a-INF" secondAttribute="width" multiplier="9:10" constant="2.5" id="LHk-2g-FPh"/>
+                            <constraint firstItem="tYn-4g-OzP" firstAttribute="centerX" secondItem="U9s-2a-INF" secondAttribute="centerX" constant="1.5" id="Own-11-Fbf"/>
                             <constraint firstItem="bOc-8D-24X" firstAttribute="leading" secondItem="U9s-2a-INF" secondAttribute="leadingMargin" id="ULq-YZ-AtL"/>
                             <constraint firstItem="Scx-tC-82K" firstAttribute="centerX" secondItem="U9s-2a-INF" secondAttribute="centerX" id="d5e-57-3fs"/>
-                            <constraint firstItem="F2a-yg-pJn" firstAttribute="top" secondItem="tYn-4g-OzP" secondAttribute="bottom" constant="20" id="feS-7L-Vgp"/>
+                            <constraint firstItem="F2a-yg-pJn" firstAttribute="top" secondItem="tYn-4g-OzP" secondAttribute="bottom" constant="31" id="feS-7L-Vgp"/>
                             <constraint firstItem="Scx-tC-82K" firstAttribute="top" secondItem="Kdj-sD-1AP" secondAttribute="bottom" constant="33" id="pRy-6J-mUi"/>
                             <constraint firstItem="tYn-4g-OzP" firstAttribute="top" secondItem="Scx-tC-82K" secondAttribute="bottom" constant="23" id="yxy-we-5yA"/>
                         </constraints>
@@ -444,41 +438,41 @@ Interview</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blogging" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIo-LX-32m">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blogging" translatesAutoresizingMaskIntoConstraints="NO" id="mJa-N7-l4v">
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="mJa-N7-l4v" secondAttribute="height" multiplier="37:47" id="UeV-Nv-k3D"/>
+                                    <constraint firstAttribute="width" secondItem="mJa-N7-l4v" secondAttribute="height" multiplier="37:47" constant="-11.063829787234056" id="UeV-Nv-k3D"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8P-jq-6aX">
-                                <string key="text">- another way to show off
-- helps you stand out
-- shows deeper interest in your work
-- demonstrates expertise</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXx-ca-Ppr">
                                 <state key="normal" title="Button" image="Backspace"/>
                                 <connections>
                                     <segue destination="kQp-5g-yqO" kind="show" id="fPp-xd-sHm"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8P-jq-6aX">
+                                <string key="text">- another way to show off
+- helps you stand out
+- shows deeper interest in your work
+- demonstrates expertise</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="LIo-LX-32m" firstAttribute="top" secondItem="Aeg-RH-ShR" secondAttribute="bottom" constant="38" id="FwP-41-BA4"/>
-                            <constraint firstItem="mJa-N7-l4v" firstAttribute="width" secondItem="b0p-P3-u2Q" secondAttribute="width" constant="-30" id="Odo-4M-tMj"/>
+                            <constraint firstItem="LIo-LX-32m" firstAttribute="top" secondItem="Aeg-RH-ShR" secondAttribute="bottom" constant="8" id="FwP-41-BA4"/>
+                            <constraint firstItem="mJa-N7-l4v" firstAttribute="width" secondItem="b0p-P3-u2Q" secondAttribute="width" constant="-168" id="Odo-4M-tMj"/>
                             <constraint firstItem="C8P-jq-6aX" firstAttribute="leading" secondItem="b0p-P3-u2Q" secondAttribute="leadingMargin" id="U3y-IS-Xu1"/>
                             <constraint firstItem="mJa-N7-l4v" firstAttribute="centerX" secondItem="b0p-P3-u2Q" secondAttribute="centerX" id="WVd-FC-XkF"/>
                             <constraint firstItem="AXx-ca-Ppr" firstAttribute="top" secondItem="Aeg-RH-ShR" secondAttribute="bottom" id="YAY-m5-RHz"/>
-                            <constraint firstItem="C8P-jq-6aX" firstAttribute="top" secondItem="mJa-N7-l4v" secondAttribute="bottom" constant="23" id="mro-HC-CRN"/>
+                            <constraint firstItem="C8P-jq-6aX" firstAttribute="top" secondItem="mJa-N7-l4v" secondAttribute="bottom" constant="28" id="mro-HC-CRN"/>
                             <constraint firstItem="LIo-LX-32m" firstAttribute="centerX" secondItem="b0p-P3-u2Q" secondAttribute="centerX" id="nMo-Ht-Hfa"/>
-                            <constraint firstItem="mJa-N7-l4v" firstAttribute="top" secondItem="LIo-LX-32m" secondAttribute="bottom" constant="28" id="rxB-1p-ix9"/>
+                            <constraint firstItem="mJa-N7-l4v" firstAttribute="top" secondItem="LIo-LX-32m" secondAttribute="bottom" constant="8" id="rxB-1p-ix9"/>
                             <constraint firstItem="AXx-ca-Ppr" firstAttribute="leading" secondItem="b0p-P3-u2Q" secondAttribute="leadingMargin" id="yZ1-0h-RZy"/>
                         </constraints>
                     </view>
@@ -500,7 +494,7 @@ Interview</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fairs &amp; Conferences" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrB-xp-cLb">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -515,7 +509,7 @@ Interview</string>
 - Take a ton of notes
 - Talk about something specific
 - Thoughtful follow up after</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -558,20 +552,11 @@ Interview</string>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="networking" translatesAutoresizingMaskIntoConstraints="NO" id="eye-Ax-xJP">
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="eye-Ax-xJP" secondAttribute="height" multiplier="1:1" id="dSE-Dk-RRH"/>
+                                    <constraint firstAttribute="width" secondItem="eye-Ax-xJP" secondAttribute="height" multiplier="1:1" constant="16" id="dSE-Dk-RRH"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jhg-Tl-3hW">
-                                <string key="text">- Professional twitter account
-- Chat with people at events and KIT
-- Most people get jobs through 
-people they know</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Networking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwc-uk-3yV">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -581,16 +566,25 @@ people they know</string>
                                     <segue destination="kQp-5g-yqO" kind="show" id="R8J-UH-KMB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jhg-Tl-3hW">
+                                <string key="text">- Professional twitter account
+- Chat with people at events and KIT
+- Most people get jobs through 
+people they know</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="LPk-Ba-euj" firstAttribute="top" secondItem="RJO-gx-el1" secondAttribute="bottom" id="4ai-PV-cHw"/>
-                            <constraint firstItem="eye-Ax-xJP" firstAttribute="top" secondItem="bwc-uk-3yV" secondAttribute="bottom" constant="19" id="BY4-ef-ejV"/>
+                            <constraint firstItem="eye-Ax-xJP" firstAttribute="top" secondItem="bwc-uk-3yV" secondAttribute="bottom" constant="21" id="BY4-ef-ejV"/>
                             <constraint firstItem="Jhg-Tl-3hW" firstAttribute="leading" secondItem="CBu-dU-Uh9" secondAttribute="leadingMargin" id="GRU-bE-6Q6"/>
                             <constraint firstItem="LPk-Ba-euj" firstAttribute="leading" secondItem="CBu-dU-Uh9" secondAttribute="leadingMargin" id="Lkj-nf-7pN"/>
                             <constraint firstItem="bwc-uk-3yV" firstAttribute="centerX" secondItem="CBu-dU-Uh9" secondAttribute="centerX" id="cZ5-RV-cLZ"/>
-                            <constraint firstItem="Jhg-Tl-3hW" firstAttribute="top" secondItem="eye-Ax-xJP" secondAttribute="bottom" constant="31" id="fUS-WJ-adt"/>
-                            <constraint firstItem="eye-Ax-xJP" firstAttribute="width" secondItem="CBu-dU-Uh9" secondAttribute="width" constant="-30" id="gRV-ax-tZf"/>
+                            <constraint firstItem="Jhg-Tl-3hW" firstAttribute="top" secondItem="eye-Ax-xJP" secondAttribute="bottom" constant="28" id="fUS-WJ-adt"/>
+                            <constraint firstItem="eye-Ax-xJP" firstAttribute="width" secondItem="CBu-dU-Uh9" secondAttribute="width" constant="-82" id="gRV-ax-tZf"/>
                             <constraint firstItem="bwc-uk-3yV" firstAttribute="top" secondItem="RJO-gx-el1" secondAttribute="bottom" constant="60" id="gxg-r7-6Ce"/>
                             <constraint firstItem="eye-Ax-xJP" firstAttribute="centerX" secondItem="CBu-dU-Uh9" secondAttribute="centerX" id="pEQ-Sl-QYw"/>
                         </constraints>
@@ -614,14 +608,8 @@ people they know</string>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phs-i2-FOG">
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="28" id="Dkr-Yr-whE"/>
-                                    <constraint firstAttribute="height" constant="28" id="DrI-uR-5dZ"/>
-                                    <constraint firstAttribute="width" constant="28" id="F2W-Su-2Jt"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="28" id="JLn-yY-tAu"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="28" id="SYg-eL-aak"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="28" id="U3y-T0-3K5"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="28" id="lfv-Mj-Qf0"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="28" id="wnh-QE-TZ1"/>
+                                    <constraint firstAttribute="height" constant="35" id="DrI-uR-5dZ"/>
+                                    <constraint firstAttribute="width" constant="35" id="F2W-Su-2Jt"/>
                                 </constraints>
                                 <state key="normal" image="arrow"/>
                                 <connections>
@@ -629,7 +617,7 @@ people they know</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Dreaded Tech Interview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B21-bo-XaG">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -644,7 +632,7 @@ people they know</string>
 - Don't try to bs what you don't know
 - Be honest about where you are 
 - You are a commodity!</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -689,22 +677,22 @@ people they know</string>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questions" translatesAutoresizingMaskIntoConstraints="NO" id="Bqx-WK-syW">
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Bqx-WK-syW" secondAttribute="height" multiplier="375:484" id="LzK-FS-g2h"/>
+                                    <constraint firstAttribute="width" secondItem="Bqx-WK-syW" secondAttribute="height" multiplier="375:478" id="Bd7-hq-vNA"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Questions/Comments/Concerns?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVc-5z-XUz">
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Bqx-WK-syW" firstAttribute="top" secondItem="IVc-5z-XUz" secondAttribute="bottom" constant="39" id="Csw-6A-qVe"/>
-                            <constraint firstItem="IVc-5z-XUz" firstAttribute="top" secondItem="QYD-Jd-rSt" secondAttribute="bottom" constant="80" id="fMz-UF-nvB"/>
+                            <constraint firstItem="Bqx-WK-syW" firstAttribute="top" secondItem="IVc-5z-XUz" secondAttribute="bottom" constant="30.5" id="1hX-Mx-Ba3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bqx-WK-syW" secondAttribute="trailing" constant="12" id="9eQ-0l-niw"/>
+                            <constraint firstItem="gjR-Hr-E4t" firstAttribute="top" secondItem="Bqx-WK-syW" secondAttribute="bottom" constant="20" id="aoq-A0-AGE"/>
                             <constraint firstItem="IVc-5z-XUz" firstAttribute="centerX" secondItem="Wrb-uT-6PA" secondAttribute="centerX" id="fvY-nw-7Re"/>
-                            <constraint firstAttribute="trailing" secondItem="Bqx-WK-syW" secondAttribute="trailing" id="lRa-Su-1Ze"/>
-                            <constraint firstItem="Bqx-WK-syW" firstAttribute="leading" secondItem="Wrb-uT-6PA" secondAttribute="leading" id="yed-5Z-pki"/>
+                            <constraint firstItem="Bqx-WK-syW" firstAttribute="leading" secondItem="Wrb-uT-6PA" secondAttribute="leadingMargin" constant="12" id="hRd-Gl-nZL"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -718,7 +706,6 @@ people they know</string>
         <image name="arrow" width="512" height="512"/>
         <image name="blogger" width="512" height="512"/>
         <image name="blogging" width="603" height="753"/>
-        <image name="dress_to_impress" width="275" height="184"/>
         <image name="gmail" width="256" height="256"/>
         <image name="job_fair" width="1500" height="1120"/>
         <image name="job_search" width="1722" height="972"/>
@@ -728,9 +715,10 @@ people they know</string>
         <image name="networking" width="500" height="500"/>
         <image name="questions" width="600" height="694"/>
         <image name="sample_resume" width="768" height="1019"/>
+        <image name="tux" width="736" height="492"/>
         <image name="twitter" width="2500" height="2500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1eI-GB-I2r"/>
+        <segue reference="pQp-Hg-7uK"/>
     </inferredMetricsTieBreakers>
 </document>
