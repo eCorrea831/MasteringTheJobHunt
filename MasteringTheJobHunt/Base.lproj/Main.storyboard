@@ -270,7 +270,7 @@ Interview</string>
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dvz-0N-9cc" id="5Vy-TM-Hg7">
-                                    <frame key="frameInset" width="375" height="43"/>
+                                    <frame key="frameInset" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8x-2M-37t">
@@ -313,11 +313,6 @@ Interview</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="confidence" translatesAutoresizingMaskIntoConstraints="NO" id="3gF-N6-dRC">
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="3gF-N6-dRC" secondAttribute="height" multiplier="340:417" id="2TV-Qu-Gmy"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32b-L1-qgS">
                                 <string key="text">- Prior experience
 - Affirmative action
@@ -332,18 +327,23 @@ Interview</string>
                                     <segue destination="kQp-5g-yqO" kind="show" id="Pze-53-QWo"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dress_to_impress" translatesAutoresizingMaskIntoConstraints="NO" id="3gF-N6-dRC">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3gF-N6-dRC" secondAttribute="height" multiplier="25:16" id="gaE-pj-5BH"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="K4m-0k-y3c" firstAttribute="leading" secondItem="Jma-4m-dCb" secondAttribute="leadingMargin" id="9cD-c6-d3D"/>
-                            <constraint firstItem="K4m-0k-y3c" firstAttribute="top" secondItem="eFW-mu-nCO" secondAttribute="bottom" id="A7m-1H-PvI"/>
-                            <constraint firstItem="32b-L1-qgS" firstAttribute="leading" secondItem="Jma-4m-dCb" secondAttribute="leadingMargin" id="CgN-vd-y7L"/>
-                            <constraint firstItem="3gF-N6-dRC" firstAttribute="centerX" secondItem="Jma-4m-dCb" secondAttribute="centerX" constant="1.5" id="PDd-qH-zSP"/>
-                            <constraint firstItem="32b-L1-qgS" firstAttribute="top" secondItem="3gF-N6-dRC" secondAttribute="bottom" constant="28" id="VHN-t4-KjR"/>
-                            <constraint firstItem="btx-L3-xFj" firstAttribute="centerX" secondItem="Jma-4m-dCb" secondAttribute="centerX" id="dcb-ho-twO"/>
-                            <constraint firstItem="btx-L3-xFj" firstAttribute="top" secondItem="eFW-mu-nCO" secondAttribute="bottom" constant="40" id="kBT-u2-3RA"/>
-                            <constraint firstItem="3gF-N6-dRC" firstAttribute="top" secondItem="btx-L3-xFj" secondAttribute="bottom" constant="23" id="qWY-MD-Vg4"/>
-                            <constraint firstItem="3gF-N6-dRC" firstAttribute="width" secondItem="Jma-4m-dCb" secondAttribute="width" constant="-30" id="s6Q-HR-ydp"/>
+                            <constraint firstItem="3gF-N6-dRC" firstAttribute="centerX" secondItem="Jma-4m-dCb" secondAttribute="centerX" id="1Il-eW-eZf"/>
+                            <constraint firstItem="3gF-N6-dRC" firstAttribute="top" secondItem="btx-L3-xFj" secondAttribute="bottom" constant="48" id="8Na-dc-L8d"/>
+                            <constraint firstItem="K4m-0k-y3c" firstAttribute="leading" secondItem="Jma-4m-dCb" secondAttribute="leadingMargin" id="IMf-5y-JBz"/>
+                            <constraint firstItem="K4m-0k-y3c" firstAttribute="top" secondItem="eFW-mu-nCO" secondAttribute="bottom" id="O7p-ZS-baq"/>
+                            <constraint firstItem="btx-L3-xFj" firstAttribute="centerX" secondItem="Jma-4m-dCb" secondAttribute="centerX" id="ZQI-If-zig"/>
+                            <constraint firstItem="3gF-N6-dRC" firstAttribute="width" secondItem="Jma-4m-dCb" secondAttribute="width" id="a3X-1e-XEg"/>
+                            <constraint firstItem="3gF-N6-dRC" firstAttribute="centerY" secondItem="Jma-4m-dCb" secondAttribute="centerY" id="aKK-MW-2UP"/>
+                            <constraint firstItem="32b-L1-qgS" firstAttribute="top" secondItem="3gF-N6-dRC" secondAttribute="bottom" constant="36" id="cyw-xI-q6R"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="32b-L1-qgS" secondAttribute="leading" id="urF-F7-JlS"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -373,8 +373,7 @@ Interview</string>
 - Cover letter
 - Linked in
 - Github
-- Twitter
-- Blog</string>
+- Twitter &amp; blog</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -617,7 +616,7 @@ people they know</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zz-nb-pei">
-                                <string key="text">- Practice your terms, read, recite
+                                <string key="text">- Practice your terms, read, recite, repeat
 - Do mock interviews
 - Don't try to bs what you don't know
 - Be honest about where you are 
@@ -696,7 +695,7 @@ people they know</string>
         <image name="arrow" width="512" height="512"/>
         <image name="blogger" width="512" height="512"/>
         <image name="blogging" width="603" height="753"/>
-        <image name="confidence" width="487" height="613"/>
+        <image name="dress_to_impress" width="275" height="184"/>
         <image name="gmail" width="256" height="256"/>
         <image name="job_fair" width="1500" height="1120"/>
         <image name="job_search" width="1722" height="972"/>
@@ -709,6 +708,6 @@ people they know</string>
         <image name="twitter" width="2500" height="2500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="R8J-UH-KMB"/>
+        <segue reference="Pze-53-QWo"/>
     </inferredMetricsTieBreakers>
 </document>

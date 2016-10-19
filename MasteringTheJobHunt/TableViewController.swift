@@ -1,11 +1,3 @@
-//
-//  TableViewController.swift
-//  MasteringTheJobHunt
-//
-//  Created by Erica Correa on 10/5/16.
-//  Copyright © 2016 Erica Correa. All rights reserved.
-//
-
 import UIKit
 
 class TableViewController: UITableViewController {
@@ -35,31 +27,24 @@ class TableViewController: UITableViewController {
         cell.textLabel!.text = labelArray[indexPath.row]
         return cell
     }
-
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let realisticViewController = storyBoard.instantiateViewController(withIdentifier: "realistic")
-        let bragViewController = storyBoard.instantiateViewController(withIdentifier: "brag")
-        let bloggingViewController = storyBoard.instantiateViewController(withIdentifier: "blogging")
-        let fairsViewController = storyBoard.instantiateViewController(withIdentifier: "fairs")
-        let networkingViewController = storyBoard.instantiateViewController(withIdentifier: "networking")
-        let interviewViewController = storyBoard.instantiateViewController(withIdentifier: "interview")
-        
-        let rowTitle:String = self.labelArray[indexPath.row];
-        if rowTitle == self.labelArray[0] {
-            self.present(realisticViewController, animated: true, completion: nil)
-        } else if rowTitle == self.labelArray[1] {
-            self.present(bragViewController, animated: true, completion: nil)
-        } else if rowTitle == self.labelArray[2] {
-            self.present(bloggingViewController, animated: true, completion: nil)
-        } else if rowTitle == self.labelArray[3] {
-            self.present(fairsViewController, animated: true, completion: nil)
-        } else if rowTitle == self.labelArray[4] {
-            self.present(networkingViewController, animated: true, completion: nil)
-        } else {
-            self.present(interviewViewController, animated: true, completion: nil)
-        }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if section == 0 { return 50 }
+        return 0
     }
 
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        
+        let controllerArray = [
+            storyBoard.instantiateViewController(withIdentifier: "realistic"),
+            storyBoard.instantiateViewController(withIdentifier: "brag"),
+            storyBoard.instantiateViewController(withIdentifier: "blogging"),
+            storyBoard.instantiateViewController(withIdentifier: "fairs"),
+            storyBoard.instantiateViewController(withIdentifier: "networking"),
+            storyBoard.instantiateViewController(withIdentifier: "interview")
+        ]
+        let selectedViewController = controllerArray[indexPath.row]
+        self.present(selectedViewController, animated: true, completion: nil)
+    }
 }
