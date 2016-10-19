@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Cover View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MasteringTheJobHunt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CoverViewController" customModule="MasteringTheJobHunt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -63,15 +63,20 @@ Interview</string>
                             <constraint firstItem="Mfl-zv-RCC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="zjg-c5-A3f"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="authorLabel" destination="JAY-Tj-Feh" id="q0r-Bo-a4f"/>
+                        <outlet property="coverImage" destination="Mfl-zv-RCC" id="RBX-TB-eyZ"/>
+                        <outlet property="titleLabel" destination="qGV-2w-FRb" id="d1n-KV-T01"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
-        <!--View Controller-->
+        <!--About View Controller-->
         <scene sceneID="9Cz-fH-Qnw">
             <objects>
-                <viewController id="y8y-3m-3zH" sceneMemberID="viewController">
+                <viewController id="y8y-3m-3zH" customClass="AboutViewController" customModule="MasteringTheJobHunt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AZY-tm-1NM"/>
                         <viewControllerLayoutGuide type="bottom" id="9NM-vT-Xcb"/>
@@ -139,15 +144,22 @@ Interview</string>
                             <constraint firstItem="0Y1-Kx-HMB" firstAttribute="leading" secondItem="0IK-ys-bhh" secondAttribute="leadingMargin" id="iu6-ez-rMC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myImage" destination="37s-4s-gms" id="5LW-FH-UHR"/>
+                        <outlet property="teacherLabel" destination="nPr-EA-kQ3" id="U28-an-FIo"/>
+                        <outlet property="titleLabel" destination="0Y1-Kx-HMB" id="sPW-uX-sLf"/>
+                        <outlet property="turnToTechLabel" destination="koV-rc-0gs" id="EBj-Aa-XV1"/>
+                        <outlet property="xoLabel" destination="AJz-ZB-Lu6" id="dxg-MD-vOB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3RF-t8-jzm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="36.431784107946029"/>
         </scene>
-        <!--View Controller-->
+        <!--Reach Me View Controller-->
         <scene sceneID="8dQ-5c-POM">
             <objects>
-                <viewController id="4Ea-Zi-s6m" sceneMemberID="viewController">
+                <viewController id="4Ea-Zi-s6m" customClass="ReachMeViewController" customModule="MasteringTheJobHunt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YfF-d6-uCx"/>
                         <viewControllerLayoutGuide type="bottom" id="8ua-Aq-edv"/>
@@ -252,6 +264,17 @@ Interview</string>
                             <constraint firstItem="ZcP-D4-13C" firstAttribute="top" secondItem="YfF-d6-uCx" secondAttribute="bottom" constant="8" id="sO0-Kz-Ha1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bloggerImage" destination="sRc-6S-i9Z" id="Naw-nF-PBR"/>
+                        <outlet property="bloggerStackView" destination="ZNi-az-apu" id="yfV-zB-a9R"/>
+                        <outlet property="gmailImage" destination="oYs-Jx-7PS" id="zgm-Rw-ecy"/>
+                        <outlet property="gmailStackView" destination="tAM-qh-H6e" id="vcg-PH-3de"/>
+                        <outlet property="linkedInImage" destination="IwS-8H-32t" id="KdZ-TV-Tcc"/>
+                        <outlet property="linkedInStackView" destination="kuQ-kt-IV2" id="HTz-4h-Qd2"/>
+                        <outlet property="reachMeLabel" destination="0ML-IM-FFh" id="7iA-SA-CSG"/>
+                        <outlet property="twitterImage" destination="bAl-rl-XR8" id="kHx-tT-UZQ"/>
+                        <outlet property="twitterStackView" destination="6Ls-6d-SgW" id="q7R-Ta-jvx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OqS-sN-0T1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -616,7 +639,7 @@ people they know</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zz-nb-pei">
-                                <string key="text">- Practice your terms, read, recite, repeat
+                                <string key="text">- Practice your terms: read, recite, repeat
 - Do mock interviews
 - Don't try to bs what you don't know
 - Be honest about where you are 
@@ -708,6 +731,6 @@ people they know</string>
         <image name="twitter" width="2500" height="2500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Pze-53-QWo"/>
+        <segue reference="1eI-GB-I2r"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED2D11C81DB8030400A425F0 /* CoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D11C71DB8030400A425F0 /* CoverViewController.swift */; };
+		ED2D11CA1DB80A4000A425F0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D11C91DB80A4000A425F0 /* AboutViewController.swift */; };
+		ED2D11CC1DB80C2100A425F0 /* ReachMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D11CB1DB80C2100A425F0 /* ReachMeViewController.swift */; };
 		ED61C5CA1D9C61D800F14DE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61C5C91D9C61D800F14DE2 /* AppDelegate.swift */; };
-		ED61C5CC1D9C61D800F14DE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61C5CB1D9C61D800F14DE2 /* ViewController.swift */; };
 		ED61C5D11D9C61D800F14DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED61C5D01D9C61D800F14DE2 /* Assets.xcassets */; };
 		ED61C5D41D9C61D800F14DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61C5D21D9C61D800F14DE2 /* LaunchScreen.storyboard */; };
 		ED61C5DF1D9C61D800F14DE2 /* MasteringTheJobHuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61C5DE1D9C61D800F14DE2 /* MasteringTheJobHuntTests.swift */; };
@@ -35,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED2D11C71DB8030400A425F0 /* CoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverViewController.swift; path = ../CoverViewController.swift; sourceTree = "<group>"; };
+		ED2D11C91DB80A4000A425F0 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		ED2D11CB1DB80C2100A425F0 /* ReachMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachMeViewController.swift; sourceTree = "<group>"; };
 		ED61C5C61D9C61D800F14DE2 /* MasteringTheJobHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasteringTheJobHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED61C5C91D9C61D800F14DE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED61C5CB1D9C61D800F14DE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED61C5D01D9C61D800F14DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED61C5D31D9C61D800F14DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED61C5D51D9C61D800F14DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				ED61C5C91D9C61D800F14DE2 /* AppDelegate.swift */,
-				ED61C5CB1D9C61D800F14DE2 /* ViewController.swift */,
-				ED95BE411DA5A330004F48A1 /* Main.storyboard */,
+				ED2D11C71DB8030400A425F0 /* CoverViewController.swift */,
+				ED2D11C91DB80A4000A425F0 /* AboutViewController.swift */,
+				ED2D11CB1DB80C2100A425F0 /* ReachMeViewController.swift */,
 				ED95BE3F1DA5A205004F48A1 /* TableViewController.swift */,
+				ED95BE411DA5A330004F48A1 /* Main.storyboard */,
 				ED61C5D01D9C61D800F14DE2 /* Assets.xcassets */,
 				ED61C5D21D9C61D800F14DE2 /* LaunchScreen.storyboard */,
 				ED61C5D51D9C61D800F14DE2 /* Info.plist */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED61C5CC1D9C61D800F14DE2 /* ViewController.swift in Sources */,
+				ED2D11C81DB8030400A425F0 /* CoverViewController.swift in Sources */,
+				ED2D11CC1DB80C2100A425F0 /* ReachMeViewController.swift in Sources */,
 				ED95BE401DA5A205004F48A1 /* TableViewController.swift in Sources */,
+				ED2D11CA1DB80A4000A425F0 /* AboutViewController.swift in Sources */,
 				ED61C5CA1D9C61D800F14DE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
